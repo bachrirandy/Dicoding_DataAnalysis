@@ -21,7 +21,7 @@ st.write("""
 st.header("1. Data Wrangling")
 st.subheader("Displaying the Top 5 and Bottom 5 Rows of the Dataset")
 
-df = pd.read_csv(r"D:\CODE\DICODING\ANALISIS DATA\submission\dashboard\final_data.csv")
+df = pd.read_csv("https://drive.google.com/uc?id=1Dy9n8_5Zrz5Te-1J8BmycTmXQtJork9V")
 data = pd.concat([df.head(5), df.tail(5)])
 st.write(data)
 
